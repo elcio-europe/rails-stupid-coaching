@@ -1,0 +1,10 @@
+<h1>Pages#ask</h1>
+<p>Find me in app/views/pages/ask.html.erb</p>
+
+
+<!-- colocar aqui a url para onde vai quando submete, ja incluidos os parametros da pergunta -->
+<form action="/pages/answer" method="get">
+  <label for="question">Speak to your coach</label>
+  <input type="text" id="question" name="query"placeholder="what time is it?">
+  <input type="submit" value="Go on!">
+</form>
